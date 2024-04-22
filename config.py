@@ -5,7 +5,6 @@ API_ID = 28386099  # api id
 API_HASH = "a0057fbf1ca49ce5e9d26fd4afd6e78b"  # api hash
 
 BOT_TOKEN = "6819695620:AAHpNgX852w0MktEN8fFGWd4RzW3PtMoOTY"  # bot token
-,
 
 ## REDIS
 REDIS_HOST = "redis-19765.c267.us-east-1-4.ec2.cloud.redislabs.com:19765"  # redis host uri
