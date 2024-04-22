@@ -242,8 +242,6 @@ Available commands:
 
 /start - Start using the bot.
 /help - Show this help message.
-
-@DextiNBots
 """
     link_preview = (False,)
     await m.reply(
