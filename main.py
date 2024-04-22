@@ -157,7 +157,7 @@ async def stats_command(m: UpdateNewMessage):
 # ----------------------------------------------------------------------------------------------------
 
 
-@bot.on(events.NewMessage(pattern="/start", incoming=True, outgoing=False))
+@bot.on(events.NewMessage(pattern="/start$", incoming=True, outgoing=False))
 async def start(m: UpdateNewMessage):
     if m.is_group or m.is_channel:
         return
