@@ -183,15 +183,17 @@ async def start(m: UpdateNewMessage):
     check_if = await is_user_on_chat(bot, f"@TERABOXSUPPORT01", m.peer_id)
     if not check_if:
         return await m.reply(f"Please join @TERABOXSUPPORT01 then send me the link again.")
-    check_if = await is_user_on_chat(bot, f"@TERABOXSUPPORT01", m.peer_id)
+    check_if = await is_user_on_chat(bot, f"@garryplays", m.peer_id)
     if not check_if:
-        return await m.reply(f"Please join @TERABOXSUPPORT01 then send me the link again.")
+        return await m.reply(f"Please join @garryplays then send me the link again.")
     await m.reply(
         reply_text,
         buttons=[
             [
                 Button.url("Update Channel", "https://t.me/TERABOXSUPPORT01"),
-                
+                Button.url(
+                    "Repo", "https://t.me/sidhu_garry"
+                ),
             ]
         ],
         link_preview=False,
