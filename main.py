@@ -12,7 +12,7 @@ from telethon.tl.functions.messages import ForwardMessagesRequest
 from telethon.types import Message, UpdateNewMessage
 from telethon import Button
 from cansend import CanSend
-from config import *
+from config import 
 from terabox import get_data
 from stats import (
     track_message,
