@@ -287,7 +287,7 @@ async def handle_message(m: Message):
     url = get_urls_from_string(m.text)
     if not url:
         return await m.reply("Please enter a valid url.")
-    check_if = await is_user_on_chat(bot, "@TERABOXSUPPORT01 , m.peer_id)
+    check_if = await is_user_on_chat(bot, "@TERABOXSUPPORT01" , m.peer_id)
     if not check_if:
         return await m.reply("Please join @teraboxsupport01  then send me the link again.")
     check_if = await is_user_on_chat(bot, "@garryplays", m.peer_id)
