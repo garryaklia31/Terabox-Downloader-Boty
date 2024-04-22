@@ -8,9 +8,9 @@ BOT_TOKEN = "6819695620:AAHpNgX852w0MktEN8fFGWd4RzW3PtMoOTY"  # bot token
 
 
 ## REDIS
-HOST = "redis-16448.c73.us-east-1-2.ec2.cloud.redislabs.com"  # redis host uri
-PORT = 16448  # redis port
-PASSWORD = "o5BMtARZTkrMHP7xvxkOEx6XrXS583NN"  # redis password
+HOST = "redis-19765.c267.us-east-1-4.ec2.cloud.redislabs.com:19765"  # redis host uri
+PORT = 6379  # redis port
+PASSWORD = "Mehakpreet@572"  # redis password
 
 PRIVATE_CHAT_ID = -1001757174395  # CHAT WHERE YOU WANT TO STORE VIDEOS
 ADMINS = [1718738592]
