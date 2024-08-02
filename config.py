@@ -16,7 +16,7 @@ ADMINS = [1718738592]
 
 COOKIE = "PANWEB=1; TSID=m0RHbkAjLAp2ugYpZoIp9wgg7FHQY095; __bid_n=18be85f750d4f42dba4207; _ga=GA1.1.1627430852.1700410655; fbm_756701921753953=base_domain=.terabox.app; ndus=Y-v8LeYteHuiTHDIo5RLqixbQFofA06gObCb9DUE; __stripe_mid=ef178580-35ba-47ab-a706-1a000765950394f456; browserid=M8oIfy3G85e0v99eknqJDPeek9TdfnX963_PtXYvuosk_bIUUWm-W7sFEng=; lang=en; _ga_06ZNKL8C2E=GS1.1.1707915442.11.0.1707915554.60.0.0; csrfToken=EESlvx4P7Edqh6tOG30jTr7g"  # COOKIE FOR AUTHENTICATION (get from chrome dev tools) ex: "PANWEB=1; csrfToken=; lang=en; TSID=; __bid_n=; _ga=; __stripe_mid=; ndus=; browserid==; ndut_fmt=; _ga_06ZNKL8C2E=" (dont use this)
 
-DUMP_CHANNEL = -1001757174395
-USER_CHANNEL = -1002074421298
+DUMP_CHANNEL = -1002162643173
+USER_CHANNEL = -1002162643173
 
 
